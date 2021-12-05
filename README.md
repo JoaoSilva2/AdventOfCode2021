@@ -2,4 +2,4 @@
 
 This repo contains all of my current and future solutions for the Adevnt of Code 2021
 
-![Screenshot from 2021-12-04 22-42-58](https://user-images.githubusercontent.com/47982858/144726739-c3c38975-7256-4749-9b13-90ff63b359a3.png)
+![Screenshot from 2021-12-05 09-38-32](https://user-images.githubusercontent.com/47982858/144741357-7077b3f2-d744-44f0-b7fa-8753dbe908d2.png)
