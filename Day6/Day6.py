@@ -1,7 +1,6 @@
 import sys
 
 def simulate(lines, n_days):
-    day = 0
     generation = [0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     for value in lines.split(","):
@@ -18,12 +17,9 @@ def simulate(lines, n_days):
     
     return sum(generation)
 
-
-
-
 if __name__ == "__main__":
     file = open(sys.argv[1], "r")
-    file_lines = file.readline()
-    print("Part1: ", simulate(file_lines, 80))
-    print("Part2: ", simulate(file_lines, 256))
+    file_line = file.readline()
+    print("Part1: ", simulate(file_line, 80))
+    print("Part2: ", simulate(file_line, 256))
     file.close()
