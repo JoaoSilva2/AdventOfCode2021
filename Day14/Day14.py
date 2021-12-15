@@ -36,5 +36,5 @@ def find_polymer_formula(polymer, rules, steps):
 if __name__ == "__main__":
     file = open(sys.argv[1], "r")
     polymer, rules = parse_input(file)
-    print("Part1: ", find_polymer_formula(polymer, rules, 40))
-    #print("Part2: ", find_polymer_formula(polymer, rules, 40))
+    print("Part1: ", find_polymer_formula(polymer, rules, 10))
+    print("Part2: ", find_polymer_formula(polymer, rules, 40))
